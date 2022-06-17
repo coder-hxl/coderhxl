@@ -11,12 +11,12 @@ npm install coderhxl -g
 
 使用 Yarn:
 ```shell
-yarn create coderhxl -g
+yarn add coderhxl -g
 ```
 
 使用 PNPM：
 ```shell
-pnpm create coderhxl -g
+pnpm add coderhxl -g
 ```
 
 ## 创建项目
