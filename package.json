@@ -1,7 +1,7 @@
 {
   "name": "coderhxl",
-  "version": "1.1.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "coderhxl util",
   "main": "index.js",
   "bin": {
     "coderhxl": "index.js"
@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["util"],
+  "author": "coderhxl",
   "license": "ISC",
   "dependencies": {
     "commander": "^9.3.0",
