@@ -20,7 +20,7 @@ pnpm add coderhxl -g
 ```
 
 ## 创建项目
-目前支持 Vue 项目
+目前支持 Vue 项目, 后续会考虑 react
 
 ### Vue3
 coderhxl 为 Vue3 项目模块做的配置:
