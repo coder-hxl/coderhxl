@@ -1,18 +1,27 @@
 {
   "name": "coderhxl",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "coderhxl cli",
-  "homepage": "https://github.com/coder-hxl/coderhxl",
   "main": "index.js",
+  "author": "coderhxl",
+  "license": "MIT",
+  "homepage": "https://github.com/coder-hxl/coderhxl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coder-hxl/coderhxl"
+  },
+  "keywords": [
+    "web",
+    "vue",
+    "util",
+    "cli"
+  ],
   "bin": {
     "coderhxl": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["web", "vue", "util", "cli"],
-  "author": "coderhxl",
-  "license": "ISC",
   "dependencies": {
     "commander": "^9.3.0",
     "download-git-repo": "^3.0.2",

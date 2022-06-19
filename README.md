@@ -2,12 +2,11 @@
 
 coderhxl 是一个快速搭建和开发前端项目的 CLI 。
 
-语言: 简体中文 | <a href="#en" style="color: #2177b8; text-decoration: none">English</a>
+语言: **简体中文** | <a href="#en" style="color: #2177b8; text-decoration: none">English</a>
 
 ## 为什么要使用 coderhxl
-* 无需每次创建项目都要从零配置, 通过 coderhxl 创建的项目是基于 vite , 并且做了很多配置, 比如: 对 axios 进行封装, 动态导入路由配置，详情在 <a href="#cn-create" style="color: #2f90b9; text-decoration: none">创建项目</a> 部分 。
+* 无需每次创建项目都要从零配置, 通过 coderhxl 创建的项目是基于 Vite , 并且做了很多配置, 比如: 对 axios 进行封装, 动态导入路由配置，详情在 <a href="#cn-vue" style="color: #2f90b9; text-decoration: none">Vue</a> 部分 。
 * 在一个项目中, 必定要创建很多组件, 同时也需要配置对应的路由。比如有 15 个,  一步一步创建组件再配置路由必然是个重复工作, 效率低。 而通过 coderhxl 的一条命令，一键创建一个组件并自动配置路由再搭配 coderhxl 配置的自动导入路由功能给 vue-router 导入所有路由配置, 效率高。
-* 更多优点请看 <a href="#cn-function" style="color: #2f90b9; text-decoration: none">功能</a> 部分。
 
 ## 安装
 使用 NPM: 
@@ -26,29 +25,22 @@ yarn add coderhxl -g
 pnpm add coderhxl -g
 ```
 
-## <h2 id="cn-create">创建项目</h2>
+## <h2 id="cn-vue">Vue 项目</h2>
 coderhxl 目前支持 Vue 项目, 后续会考虑 React 项目。
 
-### Vue3
-coderhxl 为 Vue3 项目模块做的配置:
-* 常见的目录结构
-* vite.config.js  (配置别名)
-* axios (axios 的安装和配置, 进行了二次封装)
-* vue-router (vue-router 的安装和配置, 采用动态导入路由)
-* Pinia (Pinia 的安装和配置)
+### 创建项目
 
-创建 Vue3 项目
+项目配置:
+
+- 常见的目录结构
+- vite.config.js  (配置别名)
+- axios (axios 的安装和配置, 进行了二次封装)
+- vue-router (vue-router 的安装和配置, 采用动态导入路由)
+- Pinia (Pinia 的安装和配置)
+
 ```shell
 coderhxl create <project>
 ```
-
-## <h2 id="cn-function">功能</h2>
-
-coderhxl 提供的命令:
-* add-cpn: 创建 Vue 组件 (setup)
-* add-page: 在目录下创建 Vue 组件, 并配置路由 (懒加载)
-* add-page2: 在目录创建 Vue 组件, 在 src/router 配置路由 (懒加载)
-* add-pinia: 创建 Pinia Store
 
 ### 创建 Vue 组件
 ```shell
@@ -99,12 +91,13 @@ coderhxl -h
 
 coderhxl is a CLI for quickly building and developing front-end projects.
 
-langue: <a href="#cn" style="color: #2177b8; text-decoration: none">简体中文</a> | English
+langue: <a href="#cn" style="color: #2177b8; text-decoration: none">简体中文</a> | **English**
 
 ## Why use coderhxl
-* There is no need to configure from zero every time you create a project. The project created by coderhxl is based on vite, and has done a lot of configuration, such as: encapsulate axios, dynamically import routing configuration, the details are in the <a href="#en-create" style="color: #2f90b9; text-decoration: none">Create</a> project section 。
+* There is no need to configure from zero every time you create a project. The project created by coderhxl is based on Vite, and has done a lot of configuration, such as: encapsulate axios, dynamically import routing configuration, the details are in the <a href="#en-vue" style="color: #2f90b9; text-decoration: none">Vue</a> project section 。
 * In a project, many components must be created, and corresponding routes also need to be configured. For example, if there are 15, creating a component step by step and then configuring a route is bound to be a repetitive task, which is inefficient. And through a command of coderhxl, one-click to create a component and automatically configure routing and then use the automatic import routing function of codehxl configuration to import all routing configurations to vue-router, which is efficient.
-* See the <a href="#en-function" style="color: #2f90b9; text-decoration: none">Function</a> section for more benfits。
+
+  ​
 
 ## Install
 Using NPM: 
@@ -123,33 +116,22 @@ Using PNPM：
 pnpm add coderhxl -g
 ```
 
-## <h2 id="en-create">Create project</h2>
+## <h2 id="en-vue">Vue Project</h2>
 coderhxl currently supports Vue projects, and will consider React projects in the future.
 
-### Vue3
+### Create  Vue project
 
-The configuration done by coderhxl for the Vue3 project module:
+project configuration:
 
-* Common directory structure
-* vite.config.js (config alias)
-* axios (installation and configuration of axios, secondary packaging)
-* vue-router (installation and configuration of vue-router, using dynamic import routing)
-* Pinia (installation and configuration of Pinia)
-
-Create a Vue3 project
+- Common directory structure
+- vite.config.js (config alias)
+- axios (installation and configuration of axios, secondary packaging)
+- vue-router (installation and configuration of vue-router, using dynamic import routing)
+- Pinia (installation and configuration of Pinia)
 
 ```shell
 coderhxl create <project>
 ```
-
-## <h2 id="en-function">Function</h2>
-
-Commands provided by coderhxl:
-
-* add-cpn: create a Vue component (setup)
-* add-page: Create Vue components in the directory and configure routing (lazy loading)
-* add-page2: Create Vue components in the directory, configure routing in src/router (lazy loading)
-* add-pinia: Jian Jian Pinia Store
 
 ### Create Vue components
 ```shell
