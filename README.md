@@ -81,6 +81,8 @@ coderhxl -h
 
 
 
+
+
 ------
 
 
@@ -97,7 +99,6 @@ langue: <a href="#cn" style="color: #2177b8; text-decoration: none">简体中文
 * There is no need to configure from zero every time you create a project. The project created by coderhxl is based on Vite, and has done a lot of configuration, such as: encapsulate axios, dynamically import routing configuration, the details are in the <a href="#en-vue" style="color: #2f90b9; text-decoration: none">Vue</a> project section 。
 * In a project, many components must be created, and corresponding routes also need to be configured. For example, if there are 15, creating a component step by step and then configuring a route is bound to be a repetitive task, which is inefficient. And through a command of coderhxl, one-click to create a component and automatically configure routing and then use the automatic import routing function of codehxl configuration to import all routing configurations to vue-router, which is efficient.
 
-  ​
 
 ## Install
 Using NPM: 
