@@ -1,6 +1,11 @@
 # coderhxl
 
-coderhxl 是一个快速搭建和开发前端项目的CLI
+coderhxl 是一个快速搭建和开发前端项目的 CLI 。
+
+## 为什么要使用 coderhxl
+* 无需每次创建项目都要从零配置, 通过 coderhxl 创建的项目是基于 vite , 并且做了很多配置, 比如: 对 axios 进行封装, 动态导入路由配置，详情在 <a href="#create" style="color: #2f90b9; text-decoration: none">创建项目</a> 部分 。
+* 在一个项目中, 必定要创建很多组件, 同时也需要配置对应的路由。比如有 15 个,  一步一步创建组件再配置路由必然是个重复工作, 效率低。 而通过 coderhxl 的一条命令，一键创建一个组件并自动配置路由再搭配 coderhxl 配置的自动导入路由功能给 vue-router 导入所有路由配置, 效率高。
+* 更多优点请看 <a href="#function" style="color: #2f90b9; text-decoration: none">功能</a> 部分。
 
 ## 安装
 使用 NPM: 
@@ -19,8 +24,8 @@ yarn add coderhxl -g
 pnpm add coderhxl -g
 ```
 
-## 创建项目
-coderhxl 目前支持 Vue 项目, 后续会考虑 React 项目
+## <h2 id="create">创建项目</h2>
+coderhxl 目前支持 Vue 项目, 后续会考虑 React 项目。
 
 ### Vue3
 coderhxl 为 Vue3 项目模块做的配置:
@@ -35,7 +40,8 @@ coderhxl 为 Vue3 项目模块做的配置:
 coderhxl create <project>
 ```
 
-## 功能
+## <h2 id="function">功能</h2>
+
 coderhxl 提供的命令:
 * add-cpn: 创建 Vue 组件 (setup)
 * add-page: 在目录下创建 Vue 组件, 并配置路由 (懒加载)
