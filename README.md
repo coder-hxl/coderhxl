@@ -1,7 +1,6 @@
-# <div id="cn">coderhxl<div>
+# <div id="cn">coderhxl</div>
 
-> coderhxl 是一个快速搭建和开发前端项目的 CLI 。
->
+coderhxl 是一个快速搭建和开发前端项目的 CLI 。
 
 语言: 简体中文 | <a href="#en" style="color: #2177b8; text-decoration: none">English</a>
 
@@ -96,7 +95,7 @@ coderhxl -h
 
 
 
-# <div id="en">coderhxl<div>
+# <div id="en">coderhxl</div>
 
 coderhxl is a CLI for quickly building and developing front-end projects.
 
