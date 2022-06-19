@@ -71,13 +71,13 @@ coderhxl add-page2 main # 组件默认创建到 src/views/main , 路由配置默
 coderhxl add-page2 main -d src/views/main # 指定将组件创建到 src/views/main , 路由配置创建到 src/router/main
 ```
 
-## 详情
-详情请在命令行工具中运行:
+## 更多
+请在命令行工具中运行:
 ```shell
 coderhxl -h
 ```
 
-
+如有问题请在 https://github.com/coder-hxl/coderhxl 中提 Issues 。
 
 
 
@@ -162,9 +162,12 @@ coderhxl add-page2 main # Components are created to src/views/main by default, a
 coderhxl add-page2 main -d src/views/main # Specify that components are created to src/views/main and routing configuration is created to src/router/main
 ```
 
-## Details
-For details, run the command line tool:
+##More
+
+Run the command line tool:
 
 ```shell
 coderhxl -h
 ```
+
+If you have any questions, please mention Issues in https://github.com/coder-hxl/coderhxl.
