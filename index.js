@@ -1,10 +1,15 @@
 #!/usr/bin/env node
-const program = require('commander')
-const helpOptions = require('./lib/core/help')
-const commands = require('./lib/core/commands')
+import { program } from 'commander'
+
+import helpOptions from './lib/core/help.js'
+import commands from './lib/core/commands.js'
 
 // 查看版本
-program.version(require('./package.json').version)
+// program.version(
+//   (await import('./package.json', { assert: { type: 'json' } })).default.version
+// )
+
+program.version('1.3.9')
 
 // 帮助和可选
 helpOptions()
